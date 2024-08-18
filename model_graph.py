@@ -28,6 +28,7 @@ def create_acc_loss_graph(model_name):
     fig = plt.figure()
     # plt.plot(times, accuracies)
     # plt.show()
+    
     ax1 = plt.subplot2grid((2,1), (0,0))
     ax2 = plt.subplot2grid((2,1), (1,0), sharex=ax1)
 
