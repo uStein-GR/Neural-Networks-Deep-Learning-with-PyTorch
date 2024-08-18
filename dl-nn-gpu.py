@@ -82,6 +82,7 @@ class Net(nn.Module):
         return F.softmax(x, dim=1)
     
 net = Net()
+
 print(net)
 
 if REBUILD_DATA:
